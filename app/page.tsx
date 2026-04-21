@@ -159,6 +159,7 @@ const links = {
   github: "https://github.com/droid-ash",
   linkedin: "https://www.linkedin.com/in/ashdroid/",
   twitter: "https://twitter.com/droidash",
+  instagram: "https://www.instagram.com/droidash/",
 };
 
 export default function Home() {
@@ -339,6 +340,16 @@ export default function Home() {
                 className="text-neutral-700 underline decoration-neutral-300 underline-offset-4 hover:text-neutral-900 hover:decoration-neutral-600 dark:text-neutral-300 dark:decoration-neutral-700 dark:hover:text-neutral-50 dark:hover:decoration-neutral-400"
               >
                 Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href={links.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-700 underline decoration-neutral-300 underline-offset-4 hover:text-neutral-900 hover:decoration-neutral-600 dark:text-neutral-300 dark:decoration-neutral-700 dark:hover:text-neutral-50 dark:hover:decoration-neutral-400"
+              >
+                Instagram
               </a>
             </li>
           </ul>
