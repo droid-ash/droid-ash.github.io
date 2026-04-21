@@ -44,9 +44,14 @@ const roles: Role[] = [
     period: "Apr 2022 — Nov 2024",
     url: "https://whatfix.com",
     bullets: [
-      "Primary engineer on the enterprise Android SDK — hardened it for enterprise scale and compliance.",
-      "Wrote the migration tooling that moved all 77 SDKs from Maven to JFrog.",
-      "Helped grow mobile ARR by ~$1.4M, landing UPS, NASA-JPL, and Heineken; flew on-site (LCG) to unblock a go-live.",
+      <>
+        Created{" "}
+        <ExtLink href="https://support.whatfix.com/mobile/docs/install-whatfix-mobile">
+          Whatfix for Mobile
+        </ExtLink>{" "}
+        after the Leap acquisition.
+      </>,
+      "Helped grow mobile ARR by ~$1.4M, landing UPS, NASA-JPL, and Heineken.",
       "Co-inventor on a pending U.S. patent application, \"System and Method for Element Detection in Mobile Devices\" (PLW Ref 10875-09977 US).",
     ],
   },
@@ -55,8 +60,9 @@ const roles: Role[] = [
     title: "Android Developer",
     period: "Mar 2019 — Apr 2022",
     bullets: [
-      "Second engineer. Turned the founders' POC into the shipped product.",
-      "Led SDK integrations across early enterprise customers including Jio, redBus, and Yatra.",
+      "Founding Android engineer. Turned the founders' POC into the shipped product.",
+      "Led SDK integrations across early enterprise customers including Jio, redBus, Yatra, OkCredit, Snapdeal, and ShopX.",
+      "Built a compression layer for the large SDK JSON configuration, reducing payload size by ~40–50% to keep the SDK working under low-network conditions.",
     ],
   },
   {
@@ -64,7 +70,7 @@ const roles: Role[] = [
     title: "Android Developer",
     period: "Jul 2017 — Feb 2019",
     bullets: [
-      "First engineer on a voice-AI hardware startup. Set up the mobile team, processes, and infra.",
+      "Founding engineer on the Android companion app for a voice-AI home speaker.",
       "Integrated hotword detection (\"Hey Woohoo\") with Google ASR and shipped voice services for music, news, weather, Q&A, and video calling.",
     ],
   },
