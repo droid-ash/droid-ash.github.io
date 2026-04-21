@@ -106,9 +106,12 @@ const highlights: Highlight[] = [
     label: "#1 on Android World",
     description: (
       <>
-        FinalRun tops Google DeepMind&apos;s Android World leaderboard for
-        autonomous mobile agents with a{" "}
-        <InlineLink href="https://finalrun.app/benchmark">
+        FinalRun tops Google DeepMind&apos;s{" "}
+        <InlineLink href="https://google-research.github.io/android_world/">
+          Android World
+        </InlineLink>{" "}
+        leaderboard for autonomous mobile agents with a{" "}
+        <InlineLink href="https://docs.google.com/spreadsheets/d/1cchzP9dlTZ3WXQTfYNhh3avxoLipqHN75v1Tb86uhHo/edit?gid=0#gid=0">
           97.4% success rate
         </InlineLink>{" "}
         (113 / 116 tasks), ahead of AutoDevice (94.8%), DroidRun (91.4%), and
