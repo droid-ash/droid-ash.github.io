@@ -93,6 +93,13 @@ const press: Press[] = [
     url: "https://news.ycombinator.com/item?id=47676044",
   },
   {
+    outlet: "Reddit · r/indianstartups (68k views)",
+    title:
+      "Two founders from India, no IIT, no big team — topped Google DeepMind's Android World leaderboard",
+    date: "Sep 2025",
+    url: "https://www.reddit.com/r/indianstartups/comments/1n78bbh/two_founders_from_india_no_iit_no_big_team_top/",
+  },
+  {
     outlet: "CXO Today",
     title:
       "2-person startup FinalRun sets new global record as top autonomous mobile AI agent, surpassing DeepSeek, Alibaba, and ByteDance",
