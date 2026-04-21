@@ -33,7 +33,7 @@ export default function Home() {
       <p className="mt-7">
         I am the co-founder and CTO of{" "}
         <ExtLink href="https://finalrun.app">FinalRun</ExtLink>, an AI QA agent
-        for mobile apps. I live in San Francisco.
+        for mobile apps.
       </p>
       <p className="mt-7">
         In 2025, FinalRun topped Google DeepMind&apos;s{" "}
