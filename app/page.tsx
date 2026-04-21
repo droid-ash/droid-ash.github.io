@@ -44,7 +44,8 @@ export default function Home() {
         <ExtLink href="https://docs.google.com/spreadsheets/d/1cchzP9dlTZ3WXQTfYNhh3avxoLipqHN75v1Tb86uhHo/edit?gid=0#gid=0">
           97.4% success rate
         </ExtLink>{" "}
-        (113 / 116 tasks), ahead of DeepSeek, Alibaba, and ByteDance.
+        (113 / 116 tasks) — ahead of DroidRun ($2.1M raised), Minitap&apos;s
+        mobile-use ($4.1M raised), and Google&apos;s own Gemini Computer Use.
       </p>
       <p className="mt-7">
         Before FinalRun, I spent eight years on mobile — starting at
